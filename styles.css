@@ -200,7 +200,7 @@ p{
 
 
 
-/*Login Section*/
+/*Login Section and register*/
 #text-center{
     display: flex;
     align-items: center;
@@ -236,8 +236,23 @@ p{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+.login-register-submit-button{
+    padding-top: 10%;
+    margin-bottom: 1rem;
+}
 
-
+/*contact us section */
+#contactUs-form{
+    margin: 10%;
+}
+.text-format{
+    text-align: center;
+    color: rgb(0, 191, 255);
+}
+#map{
+    padding-left: 15%;
+    padding-bottom: 15%;
+}
 
 /*Footer section*/
 #footer{
