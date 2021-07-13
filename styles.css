@@ -140,6 +140,36 @@ p{
     padding: 7% 15%;
 }
 
+/*sort section*/
+
+
+/*restaurant list section*/
+#restaurant-list{
+    display: flex;
+    padding-left: 10%;
+    text-align: right;
+
+}  
+
+.restaurant-list-card{
+    padding: 3% 2%;
+    
+}
+
+.restaurant-list-dropdowns{
+    display: inline-block;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 18%;
+    
+}
+
+.sortSearchButton{
+    align-items: center;
+    padding-left: 45%;
+    padding-top: 4%;
+}
+
 /*My Account Section*/
 #account{
     text-align: center;
@@ -168,23 +198,7 @@ p{
     padding-bottom: 5%;
 }
 
-/*Footer section*/
-#footer{
-    
-    padding: 10% 10%;
-    text-align: center;
-    background-color: black;
-    color: #F0A500;
-    
-}
-.footer-icons{
-    margin: 20px 10px;
 
-}
-.footer-name{
-    color: white;
-    
-}
 
 /*Login Section*/
 #text-center{
@@ -225,7 +239,23 @@ p{
 
 
 
+/*Footer section*/
+#footer{
+    
+    padding: 10% 10%;
+    text-align: center;
+    background-color: black;
+    color: #F0A500;
+    
+}
+.footer-icons{
+    margin: 20px 10px;
 
+}
+.footer-name{
+    color: white;
+    
+}
 @media (max-width: 1020px){
 
     #title{
