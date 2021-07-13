@@ -126,13 +126,14 @@ p{
     
 }
 .category_img{
+    padding-top: 10%;
     border-radius: 50%;
     
     
 }
 
 /*Testimonial section*/
-#testimonials{
+#reviews{
     text-align: center;
     
 }
