@@ -1,7 +1,9 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+    
 }
+
 h1, h2, h3, h4, h4{
     font-family: "Montserrat-Bold";
     font-size: 3rem;
@@ -168,6 +170,87 @@ p{
     align-items: center;
     padding-left: 45%;
     padding-top: 4%;
+}
+
+/*Menu page*/
+#menu{
+    padding: 5%;
+}
+.menu #menu-flters{
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+}
+.menu #menu-flters li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 12px 10px 12px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    color: black;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 50px;
+    font-family: "playfair Display";
+}
+.menu #menu-flters li:hover #menu-filter li.filter-active{
+    color: gold;
+}
+.menu #menu-flters li:last-child{
+    margin-right: 0;
+}
+.menu .menu-item{
+    margin-top: 50px;
+}
+.menu .menu-img{
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid rgba(255,255, 255, 0.2);
+}
+.menu .menu-content{
+    margin-left: 85px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.menu .menu-content::after{
+    position: absolute;
+    left: 20px;
+    right: 0;
+    top: -4px;
+    z-index: 1;
+    color: #bab3a6;
+    
+}
+.menu .menu-content a{
+    padding-right: 10px;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: black;
+    transition: 0.3s;
+}
+.menu .menu-content a:hover{
+    color: green;
+}
+.menu .menu-content span{
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+    color: #dfa033;
+}
+.menu .menu-ingredients {
+    margin-left: 85px;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    font-family: "Poppins", sans-serif;
 }
 
 /*My Account Section*/
